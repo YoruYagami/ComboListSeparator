@@ -43,7 +43,7 @@ We can use the script to separate the usernames and passwords as follows:
 
 This will create two output files, username.txt and password.txt, containing the following:
    ```
-username.txt:
+username.txt
 
 alice
 bob
@@ -51,7 +51,7 @@ charlie
 
    ```
    ```
-password.txt:
+password.txt
 
 password1
 password2
