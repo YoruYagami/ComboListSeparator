@@ -1,5 +1,5 @@
 
-# WordlistSeparator
+# ComboListSeparator
 
 This is a bash script that separates usernames and passwords from a user-specified text file in the format username:password and creates two output files: username.txt and password.txt, containing all usernames and passwords, respectively.
 
@@ -9,9 +9,7 @@ This is a bash script that separates usernames and passwords from a user-specifi
 This script requires Bash to run. It has been tested on macOS and Ubuntu, but should work on other Unix-like systems as well.
 ## How it works
 
-The script checks if an input file was provided as an argument, and if the file exists. If either of these checks fails, the script prints an error message and exits.
-
-If the input file is valid, the script creates two output files, username.txt and password.txt, and clears their contents. The script then reads the input file line by line, separates the username and password using the cut command and appends them to the respective output files.
+If the input file is valid, the script creates two output files, username.txt and password.txt. Then reads the input file line by line, separates the username and password using the cut command and appends them to the respective output files.
 ## Usage
 
 1. Clone the repo
@@ -28,7 +26,7 @@ If the input file is valid, the script creates two output files, username.txt an
    ```
 ## Example
 
-Suppose we have a file wordlist.txt containing the following lines:
+Suppose we have a file combolist.txt containing the following lines:
 
    ```
 alice:password1
