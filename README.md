@@ -12,13 +12,17 @@ If the input file is valid, the script creates two output files, username.txt an
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/YoruYagami/separate
+   git clone https://github.com/YoruYagami/ComboListSeparator.git
    ```
-2. Change Permission
+2. Change directory
+   ```sh
+   cd ComboListSeparator
+   ```
+3. Change Permission
    ```sh
    chmod +x separate.sh
    ```
-3. Execute
+4. Execute
    ```sh
    ./separate.sh combolist.txt
    ```
