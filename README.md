@@ -24,7 +24,7 @@ If the input file is valid, the script creates two output files, username.txt an
    ```
 3. Execute
    ```sh
-   ./separate.sh
+   ./separate.sh wordlist.txt
    ```
 ## Example
 
